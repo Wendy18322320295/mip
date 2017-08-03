@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html mip>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <title>mip carousel demo</title>
+    <link rel="stylesheet" type="text/css" href="https://mipcache.bdstatic.com/static/v1/mip.css">
+    <link rel="canonical" href="https://futureplay.github.io/mip-test/mip-carousel.html">
+    <style mip-custom>
+    	.mess {
+    		position: absolute;
+    		z-index: 1000;
+    		left: 10px;
+    		bottom: 20px;
+    		font-size: 20px;
+    		color: #fff;
+    	}
+    </style>
+</head>
+<body>
+	<mip-carousel autoplay defer="1000" layout="responsive" width="600" height="400" indicator>
+		<div>
+			<span class="mess">图片1</span>
+		    <mip-img 
+		        src="http://a2.att.hudong.com/71/04/300224654811132504044925945_950.jpg">
+		    </mip-img>
+	    </div>
+		<div>
+			<span class="mess">图片2</span>
+			<mip-img 
+		        src="http://www.bz55.com/uploads/allimg/150305/139-1503051FS0.jpg">
+		    </mip-img>
+		</div>
+		<div>
+			<span class="mess">图片3</span>
+			<mip-img 
+		        src="http://img3.3lian.com/2013/v9/58/d/25.jpg">
+		    </mip-img>
+		</div>   
+	</mip-carousel>
+		
+<script src="https://mipcache.bdstatic.com/static/v1/mip.js"></script>
+</body>
+</html>
